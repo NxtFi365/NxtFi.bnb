@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NxtFi - Seamless Crypto-Fiat Payments</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0207C4;
+            --secondary: #1A237E;
+            --accent: #99CF79;
+            --light: #FFFFFF;
+            --dark: #212121;
+            --gray: #757575;
+            --light-gray: #EEEEEE;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--dark); line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background-color: var(--light); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); position: fixed; width: 100%; z-index: 100; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; }
+        .logo-container { display: flex; align-items: center; }
+        .logo-img { height: 40px; margin-right: 10px; }
+        .logo-text { font-size: 24px; font-weight: 700; color: var(--primary); }
+        .nav-links { display: flex; list-style: none; }
+        .nav-links li { margin-left: 30px; }
+        .nav-links a { text-decoration: none; color: var(--dark); font-weight: 500; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--primary); }
+        .btn { display: inline-block; background-color: var(--primary); color: var(--light); padding: 12px 24px; border-radius: 4px; text-decoration: none; font-weight: 600; transition: background-color 0.3s; }
+        .btn:hover { background-color: var(--secondary); }
+        .hero { padding: 180px 0 100px; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); text-align: center; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; color: var(--primary); }
+        .hero p { font-size: 20px; max-width: 800px; margin: 0 auto 40px; color: var(--gray); }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 36px; }
+            .hero p { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMTAwIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMDIwN0M0Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIzMCIgZmlsbD0iI0ZGRkZGRiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+Tnh0Rmk8L3RleHQ+PC9zdmc+" alt="NxtFi Logo" class="logo-img">
+                    <div class="logo-text">NxtFi</div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#market">Market</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn">Get Started</a>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
